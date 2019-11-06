@@ -59,10 +59,10 @@ steps:
     pull: always
     image: plugins/docker
     settings:
-      cache_from: lddsb/drone-dingtalk-message
+      cache_from: chinaloryu/drone-dingtalk-message
       dockerfile: Dockerfile
       dry_run: true
-      repo: lddsb/drone-dingtalk-message
+      repo: chinaloryu/drone-dingtalk-message
       tags:
         - latest
         - 1.0.0
