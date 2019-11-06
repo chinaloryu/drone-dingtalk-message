@@ -61,7 +61,6 @@ steps:
     settings:
       cache_from: chinaloryu/drone-dingtalk-message
       dockerfile: Dockerfile
-      dry_run: true
       repo: chinaloryu/drone-dingtalk-message
       tags:
         - latest
