@@ -146,6 +146,7 @@ func (p *Plugin) Exec() error {
 	}
 
 	newWebhook := webhook.NewWebHook(p.Config.AccessToken)
+	log.Println(p.Config.AccessToken)
 	mobiles := strings.Split(p.Config.Mobiles, ",")
 	switch strings.ToLower(p.Config.MsgType) {
 	case "markdown":
